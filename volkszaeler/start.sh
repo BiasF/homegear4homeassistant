@@ -1,1 +1,1 @@
-CMD tail -f /dev/null
+tail -f /dev/null
