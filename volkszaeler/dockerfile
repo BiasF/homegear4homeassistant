@@ -1,0 +1,12 @@
+FROM debian:buster-slim
+RUN apt-get update
+RUN apt-get install nano ping
+
+
+#VOLUME ["/etc/homegear", "/var/lib/homegear", "/var/log/homegear"]
+
+
+COPY start.sh /
+RUN chmod a+x /start.sh
+
+CMD [ "/start.sh" ]
