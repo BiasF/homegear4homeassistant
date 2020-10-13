@@ -26,6 +26,7 @@ RUN cd /var/www/volkszaehler.org/ \
 	
 RUN sed -i 's+htdocs+/var/www/volkszaehler.org/htdocs+g' /var/www/etc/middleware.json
 RUN sed -i 's+api+ +g' /var/www/volkszaehler.org/htdocs/js/options.js
+
 RUN mysql -u root > CREATE USER 'vz'@'localhost' IDENTIFIED BY 'password';
 RUN mysql -u root > CREATE DATABASE "volkszaehler";
 RUN mysql -u root > GRANT select, update, insert ON volkszaehler.* TO vz@localhost;
