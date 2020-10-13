@@ -6,5 +6,4 @@ FROM debian:buster-slim
 
 COPY start.sh /
 RUN chmod a+x /start.sh
-
-CMD [ "/start.sh" ]
+ENTRYPOINT ["/bin/bash", "-c", "/start.sh"]

@@ -1,6 +1,6 @@
 {
   "name": "volkszaehler4hass",
-  "version": "I",
+  "version": "A",
   "slug": "volkszaehler4hass",
   "description": "Volkszaehler as a Hassio add-on",
   "arch": ["armv7"],
