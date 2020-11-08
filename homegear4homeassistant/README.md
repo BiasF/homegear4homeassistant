@@ -8,10 +8,10 @@ Primarly I build it for my own, because I don't want to replace my MAX! Devices 
 
 
 Feel free to use my AddOn, but keep in mind it comes absolutely without warranty and support \
-(of course feel free to give feedback on githab, I will do my best to fix problems).
+(of course feel free to give feedback on github, I will do my best to fix problems).
 
 # Usage
-1) Add this repo to your HASS Repomanager 
+1) Add this repo to your HASS Repomanager (Write the repo URL in lowercase and don't use Captial letters)
 2) Install the Plugin and start it (There are no HASSIO Addon Configuration parameters yet)
 3) At first boot, the Addon creates a homegear directory in your config folder. You have to configure it like a stand alone homegear system. 
 4) Restart the AddOn 
