@@ -1,7 +1,7 @@
 {
   "name": "homegear4homeassistant",
   "version": "1.0",
-  "slug": "Homegear4Homeassistant",
+  "slug": "homegear4homeassistant",
   "description": "Homegear as a Hassio add-on",
   "arch": ["armv7"],
   "startup": "before",
