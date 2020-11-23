@@ -1,0 +1,27 @@
+{
+  "name": "Homegear4Homeassistant",
+  "version": "1.0",
+  "slug": "Homegear4Homeassistant",
+  "description": "Homegear as a Hassio add-on",
+  "arch": ["armv7"],
+  "startup": "before",
+  "boot": "auto",
+  "auto_uart":"true",
+  "gpio": true,
+  "privileged": [
+    "SYS_ADMIN",
+    "SYS_RAWIO"
+  ],
+  "map": ["config:rw", "share:rw", "ssl:rw"],
+  "ports": {
+    "2001/tcp": 2001,
+    "2002/tcp": 2002,
+    "2003/tcp": 2003
+  },
+  "environment": {
+  },
+  "options": {
+  },
+  "schema": {
+  }
+}
