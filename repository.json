@@ -1,5 +1,5 @@
 {
-  "name": "Homegear as a Hassio add-on",
-  "url": "https://github.com/BiasF/homegear4homeassistant",
+  "name": "homegear4hass",
+  "url": "https://github.com/biasf/homegear4homeassistant",
   "maintainer": "Bias"
 }
