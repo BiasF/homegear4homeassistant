@@ -39,7 +39,7 @@ if [[ $GET_VERSION -eq 1 ]]; then
 	exit $?
 fi
 
-USER=homegear
+USER=root
 
 USER_ID=$(id -u $USER)
 USER_GID=$(id -g $USER)
