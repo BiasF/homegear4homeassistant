@@ -3,7 +3,7 @@
   "version": "1.1",
   "slug": "homegear4homeassistant",
   "description": "Homegear as a Hassio add-on",
-  "arch": ["armv7"],
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "before",
   "boot": "auto",
   "auto_uart":"true",
