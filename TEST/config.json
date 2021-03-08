@@ -1,0 +1,27 @@
+{
+  "name": "TEST",
+  "version": "1",
+  "slug": "TEST",
+  "description": "Homegear as a Hassio add-on",
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "startup": "services",
+  "boot": "auto",
+  "uart":"true",
+  "gpio": true,
+  "privileged": [
+    "SYS_ADMIN",
+    "SYS_RAWIO"
+  ],
+  "map": ["config:rw", "share:rw", "ssl:rw"],
+  "ports": {
+    "2001/tcp": 2001,
+    "2002/tcp": 2002,
+    "2003/tcp": 2003
+  },
+  "environment": {
+  },
+  "options": {
+  },
+  "schema": {
+  }
+}
