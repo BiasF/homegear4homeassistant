@@ -137,3 +137,4 @@ tail -f /var/log/homegear/homegear-influxdb.log &
 tail -f /var/log/homegear/homegear.log &
 child=$!
 wait "$child"
+
