@@ -1,7 +1,7 @@
 {
-  "name": "TEST",
+  "name": "test",
   "version": "1",
-  "slug": "TEST",
+  "slug": "test",
   "description": "Homegear as a Hassio add-on",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "services",
