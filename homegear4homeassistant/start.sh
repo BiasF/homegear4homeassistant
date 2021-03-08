@@ -1,5 +1,6 @@
 #/bin/bash
 
+
 _term() {
 	HOMEGEAR_PID=$(cat /var/run/homegear/homegear.pid)
 	kill $(cat /var/run/homegear/homegear-management.pid)
