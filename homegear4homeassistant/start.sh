@@ -1,6 +1,4 @@
 #/bin/bash
-
-
 _term() {
 	HOMEGEAR_PID=$(cat /var/run/homegear/homegear.pid)
 	kill $(cat /var/run/homegear/homegear-management.pid)
@@ -138,4 +136,3 @@ tail -f /var/log/homegear/homegear-influxdb.log &
 tail -f /var/log/homegear/homegear.log &
 child=$!
 wait "$child"
-

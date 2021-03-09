@@ -1,7 +1,6 @@
 
 ARG BUILD_FROM
 FROM $BUILD_FROM
-MAINTAINER Bias
 RUN apt-get update && apt-get -y install apt-transport-https wget ca-certificates apt-utils gnupg libzip4 libavahi-client3 libavahi-client-dev insserv
 RUN apt-get install nano
 RUN \
@@ -24,4 +23,3 @@ RUN chmod +x /start.sh
 ENTRYPOINT ["/bin/bash", "-c", "/start.sh"]
 
 EXPOSE 2001 2002 2003
-
