@@ -1,7 +1,7 @@
 {
-    "name": "homegear4homeassistant",
+    "name": "TEST21",
     "version": "1.2.3",
-    "slug": "homegear4homeassistant",
+    "slug": "TEST21",
     "description": "Homegear as a Hassio add-on",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "startup": "before",
