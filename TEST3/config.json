@@ -1,26 +1,12 @@
 {
-    "name": "TEST21",
-    "version": "1.2.3",
-    "slug": "TEST21",
-    "description": "Homegear as a Hassio add-on",
+    "name": "Hello world",
+    "version": "1",
+    "slug": "hello_world",
+    "description": "My first real add-on!",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-    "startup": "before",
+    "startup": "application",
     "boot": "auto",
-    "auto_uart":"true",
-    "gpio": true,
-    "privileged": [
-      "SYS_ADMIN",
-      "SYS_RAWIO"
-    ],
-    "map": ["config:rw", "share:rw", "ssl:rw"],
-    "ports": {
-      "2001/tcp": 2001,
-      "2002/tcp": 2002,
-      "2003/tcp": 2003
-    },
-    "options": {
-    },
-    "schema": {
-    }
+    "options": {},
+    "schema": {}
   }
   
