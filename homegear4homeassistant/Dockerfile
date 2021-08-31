@@ -1,7 +1,7 @@
 ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/aarch64:5.0.0
 FROM ${BUILD_FROM}
 
-#RUN apt-get update && apt-get -y install apt-transport-https wget ca-certificates apt-utils gnupg libzip4 libavahi-client3 libavahi-client-dev insserv
+RUN apt-get update && apt-get -y install apt-transport-https wget ca-certificates apt-utils gnupg libzip4 libavahi-client3 libavahi-client-dev insserv
 RUN apt-get install nano
 RUN \
     touch /tmp/HOMEGEAR_STATIC_INSTALLATION; \
