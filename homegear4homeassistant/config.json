@@ -1,23 +1,21 @@
 {
   "name": "homegear4homeassistant",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "slug": "homegear4homeassistant",
   "description": "Homegear as a Hassio add-on",
   "arch": ["aarch64", "amd64"],
   "startup": "before",
   "boot": "auto",
-  "uart":"true",
-  "udev":"true",
-  "gpio": true,
   "map": ["config:rw", "share:rw", "ssl:rw"],
-  "devices": ["/dev/ttyUSB0"],
   "ports": {
     "2001/tcp": 2001,
     "2002/tcp": 2002,
     "2003/tcp": 2003
   },
-  "options": {
+   "options": {
+    "device": null,
   },
   "schema": {
+    "device": "device(subsystem=tty)",
   }
 }
