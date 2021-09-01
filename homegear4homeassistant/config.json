@@ -7,7 +7,7 @@
   "startup": "before",
   "boot": "auto",
   "map": ["config:rw", "share:rw", "ssl:rw"],
-  "uart": "true"
+  "uart": "true",
   "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
   "usb": true,
   "ports": {
