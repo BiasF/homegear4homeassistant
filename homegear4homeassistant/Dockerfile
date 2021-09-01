@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/aarch64:4.2.3
+ARG BUILD_FROM=homeassistant/aarch64-base-debian:buster
 FROM ${BUILD_FROM}
 
 RUN apt-get -y update

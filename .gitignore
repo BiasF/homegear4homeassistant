@@ -1,3 +1,4 @@
-﻿*.sh~
+*.sh~
 volkszaeler/dockerfile~
 *~
+.DS_Store
