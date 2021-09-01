@@ -7,6 +7,7 @@
   "startup": "before",
   "boot": "auto",
   "uart":"true",
+  "udev":"true",
   "gpio": true,
   "privileged": [
     "SYS_ADMIN",
