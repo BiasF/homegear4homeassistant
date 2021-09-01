@@ -10,7 +10,6 @@ _term() {
 	exit 0
 }
 
-chown homegear:homegear /dev/tty*
 
 if ! [ -d "/config/homegear" ]
 then
