@@ -121,12 +121,13 @@ ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 mkdir -p /var/run/homegear
 chown ${USER}:${USER} /var/run/homegear
 
-/etc/homegear/homegear-start.sh
-/usr/bin/homegear -u ${USER} -g ${USER} -p /var/run/homegear/homegear.pid &
-sleep 5
-/usr/bin/homegear-management -p /var/run/homegear/homegear-management.pid &
-/usr/bin/homegear-webssh -u ${USER} -g ${USER} -p /var/run/homegear/homegear-webssh.pid &
-/usr/bin/homegear-influxdb -u ${USER} -g ${USER} -p /var/run/homegear/homegear-influxdb.pid &
+service homegear start
+#/etc/homegear/homegear-start.sh
+#/usr/bin/homegear -u ${USER} -g ${USER} -p /var/run/homegear/homegear.pid &
+#sleep 5
+#/usr/bin/homegear-management -p /var/run/homegear/homegear-management.pid &
+#/usr/bin/homegear-webssh -u ${USER} -g ${USER} -p /var/run/homegear/homegear-webssh.pid &
+#/usr/bin/homegear-influxdb -u ${USER} -g ${USER} -p /var/run/homegear/homegear-influxdb.pid &
 tail -f /var/log/homegear/homegear-webssh.log &
 tail -f /var/log/homegear/homegear-flows.log &
 tail -f /var/log/homegear/homegear-scriptengine.log &
