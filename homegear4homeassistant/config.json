@@ -13,9 +13,9 @@
     "2003/tcp": 2003
   },
    "options": {
-    "device": null,
+    "device": null
   },
   "schema": {
-    "device": "device(subsystem=tty)",
+    "device": "device(subsystem=tty)"
   }
 }
