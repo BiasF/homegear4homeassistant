@@ -1,6 +1,6 @@
 {
   "name": "homegear4homeassistant",
-  "version": "1.3.9",
+  "version": "1.4.0",
   "slug": "homegear4homeassistant",
   "description": "Homegear as a Hassio add-on",
   "arch": ["aarch64", "amd64"],
@@ -10,6 +10,7 @@
   "udev":"true",
   "gpio": true,
   "map": ["config:rw", "share:rw", "ssl:rw"],
+  "devices": ["/dev/ttyUSB0"],
   "ports": {
     "2001/tcp": 2001,
     "2002/tcp": 2002,
