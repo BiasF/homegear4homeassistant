@@ -123,6 +123,7 @@ ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 mkdir -p /var/run/homegear
 chown ${USER}:${USER} /var/run/homegear
 
+ulimit -r 100
 service homegear start
 #/etc/homegear/homegear-start.sh
 #/usr/bin/homegear -u ${USER} -g ${USER} -p /var/run/homegear/homegear.pid &
