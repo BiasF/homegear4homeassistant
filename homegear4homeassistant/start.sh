@@ -1,5 +1,6 @@
 #/bin/bash
 adduser homegear dialout
+adduser homegear root
 
 _term() {
 	HOMEGEAR_PID=$(cat /var/run/homegear/homegear.pid)
