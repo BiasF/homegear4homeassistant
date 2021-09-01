@@ -8,8 +8,6 @@
   "boot": "auto",
   "map": ["config:rw", "share:rw", "ssl:rw"],
   "uart": "true",
-  "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
-  "usb": true,
   "ports": {
     "2001/tcp": 2001,
     "2002/tcp": 2002,
