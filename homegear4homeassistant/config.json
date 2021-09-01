@@ -1,12 +1,14 @@
 {
   "name": "homegear4homeassistant",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "slug": "homegear4homeassistant",
   "description": "Homegear as a Hassio add-on",
   "arch": ["aarch64", "amd64"],
   "startup": "before",
   "boot": "auto",
   "map": ["config:rw", "share:rw", "ssl:rw"],
+  "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
+  "usb": true,
   "ports": {
     "2001/tcp": 2001,
     "2002/tcp": 2002,
