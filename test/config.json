@@ -1,6 +1,6 @@
 {
   "name": "testing",
-  "version": "3",
+  "version": "4",
   "slug": "test",
   "description": "Homegear as a Hassio add-on",
   "arch": ["aarch64", "amd64"],
