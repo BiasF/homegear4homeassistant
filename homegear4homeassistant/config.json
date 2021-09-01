@@ -1,6 +1,6 @@
 {
   "name": "homegear4homeassistant",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "slug": "homegear4homeassistant",
   "description": "Homegear as a Hassio add-on",
   "arch": ["aarch64", "amd64"],
@@ -9,10 +9,6 @@
   "uart":"true",
   "udev":"true",
   "gpio": true,
-  "privileged": [
-    "SYS_ADMIN",
-    "SYS_RAWIO"
-  ],
   "map": ["config:rw", "share:rw", "ssl:rw"],
   "ports": {
     "2001/tcp": 2001,
