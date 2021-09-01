@@ -1,4 +1,7 @@
 
+ARG BUILD_FROM=homeassistant/aarch64-base-debian:buster
+FROM ${BUILD_FROM}
+
 RUN apt-get -y update
 RUN apt-get update && apt-get -y install apt-transport-https wget ca-certificates apt-utils gnupg libzip4 libavahi-client3 libavahi-client-dev insserv
 RUN apt-get install nano

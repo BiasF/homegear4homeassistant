@@ -1,4 +1,4 @@
-a{
+{
   "build_from": {
     "aarch64": "homeassistant/aarch64-base-debian:buster"
    }
