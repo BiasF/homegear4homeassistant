@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/aarch64:5.0.0
+ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/aarch64:4.2.3
 FROM ${BUILD_FROM}
 
 RUN apt-get -y update
