@@ -1,6 +1,3 @@
-ARG BUILD_FROM=homeassistant/aarch64-base-debian:buster
-FROM ${BUILD_FROM}
-
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
