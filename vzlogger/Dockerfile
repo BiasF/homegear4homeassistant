@@ -6,6 +6,7 @@ FROM $BUILD_FROM
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 ARG BUILD_ARCH
 
+RUN apt update
 RUN apt-get -y update
 RUN apt-get update && apt-get -y install apt-transport-https wget git cmake autoconf libtool uuid-dev libcurl4-openssl-dev libssl-dev libgnutls28-dev libgcrypt20-dev libmicrohttpd-dev libsasl2-dev libunistring-dev build-essential
 RUN apt-get install nano
