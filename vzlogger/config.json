@@ -1,15 +1,24 @@
 {
   "name": "vzlogger",
-  "version": "dev",
+  "version": "0.1",
   "slug": "vzlogger",
-  "description": "Volkszähler VZLogger",
+  "description": "vzlogger",
   "arch": ["aarch64", "amd64"],
   "startup": "before",
   "boot": "auto",
   "map": ["config:rw", "share:rw", "ssl:rw"],
+  "uart": "true",
+  "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
+  "usb": true,
   "ports": {
     "2001/tcp": 2001,
     "2002/tcp": 2002,
     "2003/tcp": 2003
+  },
+  "options": {
+    "device": null
+  },
+  "schema": {
+    "device": "device(subsystem=tty)"
   }
 }
