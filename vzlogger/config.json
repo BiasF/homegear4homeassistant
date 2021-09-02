@@ -1,6 +1,6 @@
 {
   "name": "vzlogger",
-  "version": "0.9",
+  "version": "0.10",
   "slug": "vzlogger",
   "description": "vzlogger",
   "arch": ["aarch64", "amd64"],
