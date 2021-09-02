@@ -3,5 +3,5 @@
     "aarch64": "homeassistant/aarch64-base-debian:buster",
     "amd64": "homeassistant/amd64-base-debian:buster",
     "armhf": "homeassistant/armhf-base-raspbian:buster"
-  },
+  }
 }
