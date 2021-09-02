@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/aarch64:4.2.3
+ARG BUILD_FROM=homeassistant/aarch64-base-debian:buster
 FROM ${BUILD_FROM}
 
 RUN apt-get -y update
@@ -7,7 +7,6 @@ RUN apt-get install nano
 RUN apt-get install libmosquitto-dev
 RUN wget --no-check-certificate https://raw.github.com/volkszaehler/vzlogger/master/install.sh
 RUN sudo bash install.sh
-
 
 COPY start.sh /start.sh
 RUN chmod +x /start.sh

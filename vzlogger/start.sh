@@ -1,4 +1,3 @@
 #/bin/bash
 
-child=$!
-wait "$child"
+echo 1
