@@ -7,7 +7,6 @@
   "startup": "before",
   "boot": "auto",
   "map": ["config:rw", "share:rw", "ssl:rw"],
-  "image": "volkszaehler/volkszaehler:latest",
   "ports": {
     "83/tcp": 80,
     "445/tcp": 443,

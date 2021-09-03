@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/home-assistant/aarch64-base-debian:buster
+ARG BUILD_FROM=volkszaehler/volkszaehler:latest
 FROM $BUILD_FROM
 
 
