@@ -1,6 +1,6 @@
 {
   "name": "volkszaehler",
-  "version": "0.2",
+  "version": "0.3",
   "slug": "volkszahler",
   "description": "volkszahler",
   "arch": ["aarch64", "amd64"],
