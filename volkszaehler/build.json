@@ -1,0 +1,5 @@
+{
+  "build_from": {
+    "aarch64": "volkszaehler/volkszaehler:latest",
+  }
+}
