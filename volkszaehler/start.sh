@@ -1,15 +1,15 @@
 #/bin/bash
 
 
-if ! [ -d "/config/vzlogger" ]
+if ! [ -d "/config/volkszähler" ]
 then
 	mkdir /config/vzlogger
 	echo "Create config dir"
 fi
 
-if ! [ -d "/share/vzlogger" ]
+if ! [ -d "/share/volkszähler" ]
 then
-	mkdir /config/vzlogger
+	mkdir /share/volkszähler
 	echo "Create config dir"
 fi
 
