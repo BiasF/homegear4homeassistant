@@ -13,7 +13,7 @@ then
 	echo "Create config dir"
 fi
 
-
+vzlogger -c /conf/vzlogger/vzlogger.conf
 
 echo hallo
 while :; do :; done & kill -STOP $! && wait $!
